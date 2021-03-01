@@ -9,3 +9,13 @@
 		twoprod = prod*2;
 	return twoprod;
 }
+
+double IsThisWhat(double a[10])
+{
+	int i;
+	double prod = 0;
+	for (int i = 0; i < 10; i++)
+		prod *= a[i];
+	
+	return prod;
+}
